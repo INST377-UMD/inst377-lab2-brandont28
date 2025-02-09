@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Brandon's Lab 2</title>
+    <style>
+      body {
+        background-color: skyblue;
+      }
+
+      .communication {
+        margin-left: 75px;
+        margin-top: 20px;
+        font-size: 25px;
+      }
+
+      input[type="submit"] {
+        background-color: violet;
+        color: white;
+        margin-left: 150px;
+        margin-top: 10px;
+      }
+
+      input[type="submit"]:hover {
+        background-color: purple;
+        color: grey;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>INST377 Lab 2 - Contact Me</h1>
+    <form
+      name="Contact Information"
+      method="get"
+      action="INST377_Lab2_Submitted.html"
+    >
+      <label for="firstname">First Name:</label>
+      <input type="text" id="name" required />
+      <label for="lastname">Last Name:</label>
+      <input type="text" id="name" required />
+
+      <div class="communication">
+        <label for="email">Email:</label>
+        <input type="text" id="email" required />
+        <br />
+        <br />
+
+        <label for="phone">Phone:</label>
+        <input type="text" id="phone" />
+      </div>
+      <br />
+      <input type="submit" />
+    </form>
+  </body>
+</html>
